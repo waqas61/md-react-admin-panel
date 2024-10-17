@@ -1,0 +1,86 @@
+/* // $border-color: #b2b2b2;
+
+// .mainContainer {
+//     display: flex;
+//     flex-direction: column;
+//     max-width: 100%;
+//     border-left: 1px solid $border-color;
+//     border-bottom: 1px solid $border-color;
+//     border-right: 1px solid $border-color;
+//     border-radius: 5px;
+//     margin-top: 1em;
+//     margin-bottom: 1rem;
+
+//     .header {
+//         display: flex;
+//         flex-direction: row;
+//         width: 100% !important;
+
+//         .headerBorderBefore {
+//             border-top: 1px solid $border-color;
+//             width: 1em;
+//             border-top-left-radius: 5px;
+//         }
+
+//         .headerTitle {
+//             display: flex;
+//             align-items: center;
+//             height: 2em;
+//             font-size: 0.8rem;
+//             opacity: 0.7;
+//             font-weight: 500;
+//             margin: -1em 0.5em 0em 0.5em;
+//         }
+
+//         .headerBorderAfter {
+//             border-top: 1px solid $border-color;
+//             width: 1em;
+//             flex-grow: 2;
+//             border-top-right-radius: 5px;
+//         }
+//     }
+// } */
+
+/* Define the $border-color variable if not already defined */
+/* $border-color: #b2b2b2; */
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  border-left: 1px solid #b2b2b2;
+  border-bottom: 1px solid #b2b2b2;
+  border-right: 1px solid #b2b2b2;
+  border-radius: 5px;
+  margin-top: 1em;
+  margin-bottom: 1rem;
+}
+
+.mainContainer .header {
+  display: flex;
+  flex-direction: row;
+  width: 100% !important;
+}
+
+.mainContainer .header .headerBorderBefore {
+  border-top: 1px solid #b2b2b2;
+  width: 1em;
+  border-top-left-radius: 5px;
+}
+
+.mainContainer .header .headerTitle {
+  display: flex;
+  align-items: center;
+  height: 2em;
+  font-size: 0.8rem;
+  opacity: 0.7;
+  font-weight: 500;
+  margin: -1em 0.5em 0em 0.5em;
+}
+
+.mainContainer .header .headerBorderAfter {
+  border-top: 1px solid #b2b2b2;
+  width: 1em;
+  flex-grow: 2;
+  border-top-right-radius: 5px;
+}

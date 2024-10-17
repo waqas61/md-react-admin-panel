@@ -1,0 +1,94 @@
+.my-calendar {
+  padding: 20px;
+}
+
+.my-calendar .rbc-month-view {
+  border: none;
+}
+
+.my-calendar .rbc-month-view .rbc-date-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.my-calendar .rbc-month-view .rbc-date-cell {
+  margin-top: 15px;
+  padding-left: 15px;
+}
+
+.my-calendar .rbc-header {
+  margin-top: 30px;
+  margin-bottom: 0;
+  border: none;
+  font-weight: semi-bold;
+}
+.my-calendar .rbc-month-view .rbc-month-row {
+  display: flex;
+  background-color: #fafafa;
+  border: 0;
+}
+
+.my-calendar .rbc-month-view .rbc-cell {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.my-calendar .rbc-month-view .rbc-day-bg {
+  border-radius: 10px;
+  background-color: white;
+  margin: 5px;
+  padding: 10px;
+  overflow: hidden;
+  border: 2px solid #e8e8e8;
+}
+
+.my-calendar .rbc-month-view .rbc-day-bg:hover {
+  border: 2px solid #e8e8e8;
+  background-color: #fafafa;
+}
+
+.my-calendar .rbc-event {
+  background-color: transparent;
+  height: 100%;
+}
+
+.my-calendar .rbc-event-content {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.my-calendar .rbc-selected .rbc-date-cell {
+  background-color: #fafafa;
+  border: 2px solid #4caf50;
+}
+
+.rbc-row-content {
+  height: 100%;
+}
+
+.rbc-row .rbc-row-segment {
+  height: 100%;
+}
+
+.rbc-row-bg {
+  height: 100%;
+}
+
+.interview-day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: #000000;
+}

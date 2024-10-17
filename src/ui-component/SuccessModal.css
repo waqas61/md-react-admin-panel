@@ -1,0 +1,16 @@
+/* SuccessModal.css */
+
+.loading-bar {
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(
+    90deg,
+    #4CAF50,
+    transparent
+  ); /* Loading bar color */
+  transition: width 3s linear;
+}
+
+.closing .loading-bar {
+  width: 0;
+}

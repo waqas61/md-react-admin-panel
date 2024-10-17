@@ -1,0 +1,228 @@
+.postingContainerTop {
+  display: flex;
+  align-items: center;
+  background-color: rgb(250, 250, 250);
+  border-bottom: 1px solid #e8e8e8;
+  color: #8c8c8c;
+  flex-wrap: wrap;
+  padding: 1px 20px;
+  font-size: 14px;
+}
+.postingContainerTop span {
+  color: #595959;
+}
+.postingHeading {
+  background-color: #fafafa;
+  border-bottom: 1px solid #e8e8e8;
+}
+.postingHeading h4 {
+  padding-top: 0.7rem;
+  margin-left: 20px;
+}
+.postingHeading p {
+  color: #8c8c8c;
+  font-size: 0.9rem;
+  padding: 0 20px;
+}
+.postingSchedule {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #d9d9d9;
+  background-color: #fafafa;
+  padding: 10px 20px;
+}
+.postingSchedule h6 {
+  color: #595959;
+}
+
+/* Applicant Data Box */
+
+.categoryGeneralLeft {
+  display: flex;
+}
+.imgContent {
+  margin: 0 20px;
+}
+.imgContent img {
+  height: 134px;
+  width: 134px;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  background-color: #ffdeaf;
+}
+.imgContent h3 {
+  background-color: #fff2e1;
+  color: #595959;
+  font-size: 14px;
+  text-align: center;
+}
+.generalInfoHeading {
+  color: #262626;
+  font-size: 14px;
+}
+.ApplicantWork-top {
+  display: flex;
+  flex-wrap: wrap;
+}
+.dataRow {
+  width: 200px;
+  flex-direction: column;
+  display: flex;
+  margin: 10px 0 5px 0;
+}
+.ApplicantWork-top .header {
+  font-weight: 400;
+  color: #8c8c8c;
+  font-size: 12px;
+}
+.ApplicantWork-top .data {
+  color: #595959;
+  font-weight: 400;
+  font-size: 12px;
+}
+.categoryGeneralRight .certificates {
+  display: flex;
+  flex-wrap: wrap;
+}
+.categoryGeneralRight .certificates img {
+  width: 67px;
+  height: 67px;
+  border: 0.55px solid #e8e8e8;
+  margin: 2px 0 0 5px;
+  border-radius: 4px;
+  background-color: #fff;
+  z-index: 1;
+}
+.applicantRating {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.applicantRating div {
+  width: 200px;
+}
+/* Work Experiance */
+.topSection {
+  display: flex;
+}
+.firstExp {
+  margin-top: 8px;
+}
+.firstExp p {
+  color: #262626;
+  font-size: 16px;
+  font-weight: 550;
+}
+.yearExperiance {
+  display: flex;
+}
+.yearExperiance div {
+  margin: 0 0 0 20px;
+}
+.yearExperiance div input {
+  height: 45px;
+  width: 250px;
+  border: 1px solid #dfdfdf;
+  margin: 10px 5px 12px 5px;
+  padding: 10px 15px;
+  outline: none;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #8c8c8c;
+}
+.yearExperiance div input:focus {
+  outline: #dfdfdf;
+}
+.yearExperiance div label {
+  position: absolute;
+  background-color: #fff;
+  margin: 0 0 0 15px;
+  font-size: 13px;
+  color: #8c8c8c;
+}
+.bottomSection {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  margin-top: 20px;
+  padding: 10px 0;
+  color: #262626;
+  border-radius: 10px;
+}
+.bottomSection div i {
+  padding: 0 10px;
+}
+.WorklastSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid #d9d9d9;
+  color: #262626;
+  padding-top: 10px;
+  font-size: 14px;
+  margin-bottom: 6rem;
+}
+
+/* Additional Info sections */
+
+.topInfo {
+  display: flex;
+  align-items: center;
+  color: #595959;
+  gap: 50px;
+  margin: 0 20px;
+  font-size: 12px;
+  border-bottom: 1px dotted #8c8c8c;
+  padding: 5px 0;
+}
+.topInfo .techName {
+  color: #262626;
+  font-weight: 600;
+  font-size: 12px;
+}
+.midInfo {
+  margin: 5px 0 0 20px;
+  display: flex;
+  width: 25%;
+  flex-wrap: wrap;
+  color: #595959;
+  font-weight: 500;
+}
+.midInfo div {
+  margin: 5px 0 0 10px;
+}
+.midInfo div p {
+  font-size: 12px;
+}
+.midInfoHeading {
+  color: #262626;
+  margin: 10px 0 0 20px;
+  font-size: 14px;
+}
+.lastInfo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 20px;
+  padding-top: 10px;
+}
+.lastInfo div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 250px;
+}
+.lastInfo div span,
+.lastInfo div p {
+  font-size: 12px;
+}
+.lastInfo div span {
+  color: #565656;
+}
+.lastInfo div p {
+  color: #595959;
+  font-weight: 500;
+}

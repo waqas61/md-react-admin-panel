@@ -1,0 +1,12 @@
+
+@media  only screen and (max-width: "390px") {
+    #mui-29427, #mui-20412, .MuiTypography-colorInherit{
+        font-size: 10px !important;
+    }
+    .MuiTablePagination-actions{
+        margin-left: 0;
+    }
+    .MuiTablePagination-toolbar{
+        padding-left: 0;
+    }
+}

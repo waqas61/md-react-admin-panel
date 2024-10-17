@@ -1,0 +1,33 @@
+.location-posting-title{
+    display: flex;
+}
+
+.close-cal-button-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    /* background-color: blue; */
+    /* width: 100px; */
+    column-gap: 10px;
+}
+
+.close-cal-button-container button{
+    border-radius: 50px;
+}
+
+.close-cal-button-container p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clinic-details-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p{
+    margin-bottom: 0;
+}

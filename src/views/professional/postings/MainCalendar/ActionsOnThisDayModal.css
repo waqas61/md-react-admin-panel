@@ -1,0 +1,19 @@
+.rbc-event,
+.rbc-day-slot .rbc-background-event {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  height: 100%;
+  color: #000;
+}
+
+.rbc-day-slot .rbc-event,
+.rbc-day-slot .rbc-background-event {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.rbc-event-label {
+  display: none;
+}
